@@ -9,12 +9,13 @@ func main() {
 	fmt.Print(reverse(scores, length))
 }
 
-func reverse(arrays []int, lenght int) []int {
-	var middle = lenght / 2
+func reverse(arrays []int, length int) []int {
+	var middle = length / 2
 	for i := 0; i <= middle; i++ {
-		var temp = arrays[i]
-		arrays[i] = arrays[lenght-i-1]
-		arrays[lenght-i-1] = temp
+		// var temp = arrays[i]
+		// arrays[i] = arrays[lenght-i-1]
+		// arrays[lenght-i-1] = temp
+		arrays[i], arrays[length-i-1] = arrays[length-i-1], arrays[i]
 	}
 	return arrays
 }
