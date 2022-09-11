@@ -18,3 +18,16 @@ type Node struct {
 1. One-way Circular Linked List initialization and traversal ouput
 
 ![initialization and insert](initialization%20and%20traversal.png)
+
+
+2. Insert a node E in position 2
+
+![](insert.png)
+
+![](insert%202.png)
+
+3. Delete the index=2 node
+
+![](delete%201.png)
+
+![](delete%202.png)
